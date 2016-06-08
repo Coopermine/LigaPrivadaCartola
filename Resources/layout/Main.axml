@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+ 
+  
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Relative" />
+
+  <satellitemenu.SatelliteMenuButton
+     android:id="@+id/menu"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="bottom|left"
+     android:layout_margin="4dp">
+    <ImageView
+        android:id="@+id/popoutMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bolaicon"
+        android:layout_gravity="bottom|left"
+        android:contentDescription="@string/empty" />
+  </satellitemenu.SatelliteMenuButton>
+  
+</FrameLayout>
+
+
+
